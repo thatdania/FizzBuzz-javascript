@@ -6,6 +6,10 @@ describe("FizzBuzz", function() {
     expect(list.length).toEqual(100);
    });
 
+   it("should start from 1 instead from 0", function(){
+     expect(list[0]).toEqual(1);
+   });
+
 });
 
 // describe("FizzBuzz", function() {
