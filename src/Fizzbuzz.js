@@ -23,6 +23,5 @@ FizzBuzz.prototype.math = function(){
     }
 
   }
-  console.log(list)
   return list;
 }

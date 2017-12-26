@@ -26,13 +26,4 @@ describe("FizzBuzz", function() {
      expect(list[10]).toEqual(11)
    });
 
-
 });
-
-// describe("FizzBuzz", function() {
-//   var fizzbuzz = new FizzBuzz();
-//   var array = fizzbuzz.loop();
-//
-//   it("should return an array of 100 values", function() {
-//     expect(array.length).toEqual(100);
-//   });
