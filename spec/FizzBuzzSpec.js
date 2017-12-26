@@ -10,6 +10,10 @@ describe("FizzBuzz", function() {
      expect(list[0]).toEqual(1);
    });
 
+   it("should show Fizz if divisible by three", function(){
+     expect(list[2]).toEqual("Fizz");
+   });
+
 });
 
 // describe("FizzBuzz", function() {
