@@ -10,10 +10,14 @@ FizzBuzz.prototype.math = function(){
       list[n] = "Fizz"
     }
 
+    else if(value % 5 === 0){
+      list[n] = "Buzz"
+    }
+
     else {
     list[n] = value
     }
-    
+
   }
   return list;
 }

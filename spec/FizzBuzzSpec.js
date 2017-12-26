@@ -14,6 +14,10 @@ describe("FizzBuzz", function() {
      expect(list[2]).toEqual("Fizz");
    });
 
+   it("should show Buzz if divisible by five", function(){
+     expect(list[4]).toEqual("Buzz")
+   })
+
 });
 
 // describe("FizzBuzz", function() {
