@@ -22,6 +22,11 @@ describe("FizzBuzz", function() {
      expect(list[14]).toEqual("FizzBuzz")
    });
 
+   it("number should print if it is not part of FizzBuzz",function(){
+     expect(list[10]).toEqual(11)
+   });
+
+
 });
 
 // describe("FizzBuzz", function() {
