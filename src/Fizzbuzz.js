@@ -6,7 +6,11 @@ FizzBuzz.prototype.math = function(){
   for(var n=0; n < 100; n++){
     var value = n + 1;
 
-    if(value % 3 === 0){
+    if(value % 3 === 0 && value % 5 === 0){
+      list[n] = "FizzBuzz"
+    }
+
+    else if(value % 3 === 0){
       list[n] = "Fizz"
     }
 
@@ -19,5 +23,6 @@ FizzBuzz.prototype.math = function(){
     }
 
   }
+  console.log(list)
   return list;
 }

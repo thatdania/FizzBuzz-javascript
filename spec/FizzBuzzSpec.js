@@ -16,7 +16,11 @@ describe("FizzBuzz", function() {
 
    it("should show Buzz if divisible by five", function(){
      expect(list[4]).toEqual("Buzz")
-   })
+   });
+
+   it("should show FizzBuzz if both divisible by five or three",function(){
+     expect(list[14]).toEqual("FizzBuzz")
+   });
 
 });
 
